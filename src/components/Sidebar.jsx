@@ -58,11 +58,11 @@ export default function Sidebar() {
    
 
         <ul className="mt-40 ml-10 hidden lg:block font-normal">
-          <NavLink ref={el => link1 = el} exact="true" activeclassname="active" className="" to="/circles"><li className="text-white text-[36px] md:text-[50px] ">Circles</li></NavLink>
-          <NavLink ref={el => link2 = el} exact="true" activeclassname="active" className="" to="/drawsvg"><li className="text-white text-[36px] md:text-[50px] ">DrawSVG</li></NavLink>
-          <NavLink ref={el => link3 = el} exact="true" activeclassname="active" className="" to="/parallax"><li className="text-white text-[36px] md:text-[50px] ">Parallax</li></NavLink>
-          <NavLink ref={el => link4 = el} exact="true" activeclassname="active" className="" to="/scroll"><li className="text-white text-[36px] md:text-[50px] ">Scroll </li></NavLink>
-          <NavLink ref={el => link5 = el} exact="true" activeclassname="active" className="" to="/text"><li className="text-white text-[36px] md:text-[50px] ">Text </li></NavLink>
+          <NavLink ref={el => link1 = el} exact="true" activeclassname="active"  to="/circles"><li className="text-white text-[36px] md:text-[50px] ">Circles</li></NavLink>
+          <NavLink ref={el => link2 = el} exact="true" activeclassname="active"  to="/drawsvg"><li className="text-white text-[36px] md:text-[50px] ">DrawSVG</li></NavLink>
+          <NavLink ref={el => link3 = el} exact="true" activeclassname="active"  to="/parallax"><li className="text-white text-[36px] md:text-[50px] ">Parallax</li></NavLink>
+          <NavLink ref={el => link4 = el} exact="true" activeclassname="active"  to="/scroll"><li className="text-white text-[36px] md:text-[50px] ">Scroll </li></NavLink>
+          <NavLink ref={el => link5 = el} exact="true" activeclassname="active"  to="/text"><li className="text-white text-[36px] md:text-[50px] ">Text </li></NavLink>
         </ul>
 
         <div className="text-center">
@@ -72,7 +72,7 @@ export default function Sidebar() {
                 className="text-[62px]"
                 target="_blank"
                 rel="noreferrer"
-                href="https://www.github.com/geracons"
+                href="https://github.com/geracons/portfoliogsap"
               >
                 <FontAwesomeIcon size="40%" icon={faGithub} color="#FFF" />
               </a>
