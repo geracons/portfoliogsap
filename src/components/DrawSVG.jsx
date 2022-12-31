@@ -46,11 +46,11 @@ export default function Objects() {
   return (
     <div>
 
-<div ref={el => titleSection = el} className='hidden lg:block lg:absolute  lg:right-0 lg:top-20 lg:bg-black lg:p-3 lg:text-white text-[30px] '>
+<div ref={el => titleSection = el} className=' lg:absolute  lg:right-0 lg:top-20 bg-black lg:p-3 text-white text-[30px] '>
       DrawSVG Plugin GSAP
     </div>
 
-    <div ref={draw} className="draw  pl-80 pt-40">
+    <div ref={draw} className="draw   lg:pl-80 lg:pt-40">
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 625">
       <g id="LEAVE1_FORGROUND">
         <path

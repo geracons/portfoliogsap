@@ -53,14 +53,14 @@ export default function Collage() {
 
   return (
    <>
-    <div ref={el => titleSection = el} className='hidden lg:block lg:absolute  lg:right-0 lg:top-20 lg:bg-black lg:p-3 lg:text-white text-[30px] '>
+    <div ref={el => titleSection = el} className=' lg:absolute  lg:right-0 lg:top-20 bg-black lg:p-3 text-white text-[30px] '>
       Circle with images  GSAP
     </div>
 
-    <div className="collage absolute flex flex-col pl-40 ">
-      <div onClick={state1 !== true ? handleExpand1 : handleShrink1} ref={el => circle1 = el}className="circle1 w-20 h-20 rounded-full  mt-60 ml-96 bg-black"></div>
-      <div onClick={state2 !== true ? handleExpand2 : handleShrink2} ref={el => circle2 = el} className="circle2 w-20 h-20 rounded-full mt-3 ml-96 bg-black backgroundImage"></div>
-      <div onClick={state3 !== true ? handleExpand3 : handleShrink3} ref={el => circle3 = el} className="circle3 w-20 h-20 rounded-full mt-3 ml-96 bg-black"></div>
+    <div className="collage absolute flex flex-col text-center top-40 left-40  lg:pl-40 ">
+      <div onClick={state1 !== true ? handleExpand1 : handleShrink1} ref={el => circle1 = el}className="circle1 w-20 h-20 rounded-full  lg:mt-60 lg:ml-96 "></div>
+      <div onClick={state2 !== true ? handleExpand2 : handleShrink2} ref={el => circle2 = el} className="circle2 w-20 h-20 rounded-full lg:mt-3 lg:ml-96"></div>
+      <div onClick={state3 !== true ? handleExpand3 : handleShrink3} ref={el => circle3 = el} className="circle3 w-20 h-20 rounded-full lg:mt-3 lg:ml-96"></div>
      
     </div>
   
