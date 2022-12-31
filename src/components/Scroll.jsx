@@ -56,7 +56,7 @@ export default function Scroll() {
   return (
     <>
     
-    <div ref={el => titleSection = el} className='hidden lg:block lg:absolute  lg:right-0 lg:top-20 lg:bg-black lg:p-3 lg:text-white text-[30px] '>
+    <div ref={el => titleSection = el} className='absolute  lg:right-0 top-20 lg:bg-black lg:p-3 lg:text-white text-[30px] '>
       Scroll Trigger
     </div>
 

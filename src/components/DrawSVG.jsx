@@ -46,7 +46,7 @@ export default function Objects() {
   return (
     <div>
 
-<div ref={el => titleSection = el} className=' lg:absolute  lg:right-0 lg:top-20 bg-black lg:p-3 text-white text-[30px] '>
+<div ref={el => titleSection = el} className=' absolute  lg:right-0 top-20 bg-black lg:p-3 text-white text-[30px] '>
       DrawSVG Plugin GSAP
     </div>
 

@@ -42,11 +42,11 @@ export default function Parallax() {
   return (
     <div>
       
-      <div ref={el => titleSection = el} className='hidden lg:block lg:absolute  lg:right-0 lg:top-20 lg:bg-black lg:p-3 lg:text-white text-[30px] '>
+      <div ref={el => titleSection = el} className='absolute  lg:right-0 top-20 bg-black lg:p-3 text-white text-[30px] '>
      Parallax effect with GSAP
     </div>
 
-        <div className='relative w-1/2 h-2/6'>
+        <div className='right-100 relative lg:w-1/2 lg:h-2/6'>
         <Background ref={background}/>
         <Grass2 ref={grass2}/>
         <Grass1 ref={grass1}/>

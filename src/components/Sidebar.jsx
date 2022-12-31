@@ -33,7 +33,7 @@ export default function Sidebar() {
     <label class='menu-button-container' for="menu-toggle">
     <div class='menu-button'></div>
   </label>
-    <ul className="menu">
+    <ul className="menu z-20">
      <li>Circles</li>
       <li>DrawSVG</li>
       <li>Parallax</li>

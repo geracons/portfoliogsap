@@ -12,7 +12,7 @@ export default function Text(props) {
 
   return (
     <div>
-      <div ref={ el => titleSection = el} className=" lg:absolute  lg:right-0 lg:top-20 bg-black lg:p-3 text-white text-[30px] ">
+      <div ref={ el => titleSection = el} className=" absolute  lg:right-0 top-20 bg-black lg:p-3 text-white text-[30px] ">
         Split Text
       </div>
      <div className="text relative h-full w-full flex flex-col items-center justify-center text-center top-20 lg:pl-80 lg:pt-60">

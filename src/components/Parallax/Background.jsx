@@ -19,7 +19,7 @@ const Background = forwardRef((props, ref)=> {
   )
 
   return (
-    <div ref={el} className='absolute top-60 left-96 w-full h-full will-change-transform'>
+    <div ref={el} className='absolute top-60 lg:left-96 w-full h-full will-change-transform'>
    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 625">
       <g id="BLOW">
         <g
