@@ -15,7 +15,7 @@ export default function Text(props) {
       <div ref={ el => titleSection = el} className=" absolute  lg:right-0 top-20 bg-black lg:p-3 text-white text-[30px] ">
         Split Text
       </div>
-     <div className="text relative h-full w-full flex flex-col items-center justify-center text-center top-20 lg:pl-80 lg:pt-60">
+     <div className="text relative h-full w-full flex flex-col items-center justify-center text-center top-40 lg:pl-80 lg:pt-60">
       <div className="max-w-5xl">
         <h2 className="text-[2rem] lg:text-[5rem] leading-10 font-bold text-teal-400">{props.title}</h2>
         <h3 className="text-[2rem] lg:text-[5rem]  pt-4 leading-none font-bold text-teal-800">
