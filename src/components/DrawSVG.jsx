@@ -50,7 +50,7 @@ export default function Objects() {
       DrawSVG Plugin GSAP
     </div>
 
-    <div ref={draw} className="draw mt-40 mr-20  lg:pl-80 lg:pt-40">
+    <div ref={draw} className="draw mt-40 lg:-mt- mr-20  lg:pl-60 lg:pt-10">
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 625">
       <g id="LEAVE1_FORGROUND">
         <path

@@ -46,7 +46,7 @@ export default function Parallax() {
      Parallax effect with GSAP
     </div>
 
-        <div className='right-100 relative lg:w-1/2 lg:h-2/6'>
+        <div className='right-100 ml-20 relative lg:w-1/2 lg:h-2/6'>
         <Background ref={background}/>
         <Grass2 ref={grass2}/>
         <Grass1 ref={grass1}/>

@@ -42,7 +42,7 @@ export default function Sidebar() {
     </ul>
   </section>
   </div>
-      <div className="bg-black hidden w-full h-16  lg:block sm:w-20 md:w-40 lg:w-80 absolute top-0 z-10 min-h-500 sm:h-full">
+      <div className="bg-black hidden  lg:block sm:w-20 md:w-40 lg:w-80 absolute top-0 z-10 lg:max-h-max lg:h-auto lg:min-h-screen">
         <div className="title  hidden lg:block">
           <p className="text-white font-bold text-[36px] md:text-[78px] lg:mt-20 lg:ml-20 lg:pl-1 inline absolute ">
             <NavLink to="/">Welco </NavLink>
