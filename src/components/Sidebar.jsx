@@ -6,6 +6,7 @@ import '../assets/css/sidebar.scss'
 import { useRef } from 'react'
 import { useEffect } from 'react'
 import { gsap, Power3} from 'gsap'
+import { useState } from "react";
 
 
 
@@ -25,20 +26,23 @@ export default function Sidebar() {
     gsap.from(link5, 1, {opacity: 0, x: 40, ease: Power3.easeOut, delay: .5})
   }, [])
 
+
+     
+
   return (
     <>
-    <div className=" block lg:hidden">
+    <div  className=" block lg:hidden">
     <section class="top-nav  ">
     <input id="menu-toggle" type="checkbox" />
     <label class='menu-button-container' for="menu-toggle">
     <div class='menu-button'></div>
   </label>
     <ul className="menu z-20">
-     <li>Circles</li>
-      <li>DrawSVG</li>
-      <li>Parallax</li>
-      <li>Scroll</li>
-      <li>Text</li>
+     <li ><NavLink  to="/circles">Circles</NavLink></li>
+      <li><NavLink to="/drawsvg">DrawSVG</NavLink></li>
+      <li><NavLink to="/parallax">Parallax</NavLink></li>
+      <li><NavLink to="/">Scroll</NavLink></li>
+      <li><NavLink to="/text">Text</NavLink></li>
     </ul>
   </section>
   </div>
@@ -61,7 +65,7 @@ export default function Sidebar() {
           <NavLink ref={el => link1 = el} exact="true" activeclassname="active"  to="/circles"><li className="text-white text-[36px] md:text-[50px] ">Circles</li></NavLink>
           <NavLink ref={el => link2 = el} exact="true" activeclassname="active"  to="/drawsvg"><li className="text-white text-[36px] md:text-[50px] ">DrawSVG</li></NavLink>
           <NavLink ref={el => link3 = el} exact="true" activeclassname="active"  to="/parallax"><li className="text-white text-[36px] md:text-[50px] ">Parallax</li></NavLink>
-          <NavLink ref={el => link4 = el} exact="true" activeclassname="active"  to="/scroll"><li className="text-white text-[36px] md:text-[50px] ">Scroll </li></NavLink>
+          {/*<NavLink ref={el => link4 = el} exact="true" activeclassname="active"  to="/scroll"> */}<li className="text-white text-[36px] md:text-[50px] ">Scroll </li>{/*</NavLink>*/}
           <NavLink ref={el => link5 = el} exact="true" activeclassname="active"  to="/text"><li className="text-white text-[36px] md:text-[50px] ">Text </li></NavLink>
         </ul>
 
